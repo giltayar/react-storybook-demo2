@@ -13,5 +13,4 @@ jobs:
           name: test
           command: |
             export APPLITOOLS_BATCH_ID=$CIRCLE_SHA1
-            export APPLITOOLS_BRANCH_NAME=$CIRCLE_BRANCH
             npm test
